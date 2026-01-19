@@ -4,8 +4,6 @@
 
 This project presents a **comprehensive two-phase investigation** comparing traditional machine learning models with neural network architectures for **Sports-Based Human Activity Recognition (HAR)** using video data. The study systematically evaluates performance across different feature representations and model paradigms.
 
-**Core Insight**: The research demonstrates that **feature representation quality is more critical than model complexity** for sports activity recognition with limited training data.
-
 ---
 
 ## 🎯 Research Objectives
