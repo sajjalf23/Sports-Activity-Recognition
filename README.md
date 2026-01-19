@@ -77,12 +77,12 @@ This project presents a **comprehensive two-phase investigation** comparing trad
 
 **COMPREHENSIVE MODEL PERFORMANCE COMPARISON**
 
-| Model | Parameters | Best Val Acc | Test Acc | Test F1 | Training Epochs | Overfitting Gap |
-|-------|------------|--------------|----------|---------|-----------------|-----------------|
-| **FCNN** | Unknown | 77.78% | **65.79%** | 0.6487 | 36 | 11.99 |
-| LSTM | 1,579,530 | 62.50% | 58.77% | 0.5860 | 34 | 3.73 |
-| GRU | 1,185,290 | 60.65% | 54.82% | 0.5092 | 32 | 5.83 |
-| RNN | 396,810 | 53.24% | 48.25% | 0.4691 | 31 | 4.99 |
+| Model |Best Val Acc | Test Acc | Test F1 | Training Epochs | Overfitting Gap |
+|-------|--------------|----------|---------|-----------------|-----------------|
+| **FCNN** | 77.78% | **65.79%** | 0.6487 | 36 | 11.99 |
+| LSTM | 62.50% | 58.77% | 0.5860 | 34 | 3.73 |
+| GRU | 60.65% | 54.82% | 0.5092 | 32 | 5.83 |
+| RNN | 53.24% | 48.25% | 0.4691 | 31 | 4.99 |
 
 **Phase 2 Gap**: **4.82%** accuracy difference between best traditional (SVM) and best neural (FCNN)
 
@@ -152,20 +152,7 @@ The **feature representation paradigm** has greater impact on sports activity re
 1. **3D CNNs**: Test I3D or similar architectures on raw video
 2. **Two-Stream Networks**: Combine appearance and motion streams
 3. **Feature Fusion**: Combine IDT features with learned representations
-4. **Data Augmentation**: Apply temporal and spatial augmentations
-
-### **Architectural Innovations**
-1. **Hybrid Models**: IDT features as input to attention-based networks
-2. **Transfer Learning**: Pre-trained video models fine-tuned on sports data
-3. **Efficient Architectures**: MobileNetV3 + GRU for mobile deployment
-
-### **Experimental Improvements**
-1. **Larger Dataset**: Test on full UCF-101 or Sports-1M
-2. **More Classes**: Include finer-grained sports activities
-3. **Real-world Testing**: Deploy on mobile devices for practical evaluation
 
 ---
 
-
-*Last Updated: [Current Date]*
 
